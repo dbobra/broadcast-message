@@ -12,16 +12,10 @@
     <artifactId>Sender</artifactId>
 
     <dependencies>
-    <dependency>
-        <groupId>io.vertx</groupId>
-        <artifactId>vertx-hazelcast</artifactId>
-        <version>${vertx.version}</version>
-    </dependency>
         <dependency>
             <groupId>io.vertx</groupId>
             <artifactId>vertx-hazelcast</artifactId>
-            <version>3.9.0</version>
-            <scope>compile</scope>
+            <version>${vertx.version}</version>
         </dependency>
         <dependency>
             <groupId>org.example</groupId>
@@ -43,7 +37,6 @@
         </dependency>
 
     </dependencies>
-
 
 
 </project>
